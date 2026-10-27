@@ -71,11 +71,16 @@ i[lang="en"], span[lang="en"], .en-inline { font-style: normal; }
 .kicker span[lang="en"] { font-family: var(--en); font-style: italic; font-size: .95rem; letter-spacing: 0; }
 .hero h1 { margin: 0; }
 .h-ar { display: block; font-family: var(--display); font-weight: 900; font-size: clamp(4.6rem, 16.5vw, 13.5rem); line-height: .98; letter-spacing: -.01em; }
-.hero .h-en { display: block; margin-top: .4rem; font-family: var(--en); font-style: italic; font-weight: 400; font-size: clamp(1.6rem, 4.4vw, 3.4rem); line-height: 1.1; color: var(--accent); text-align: end; }
-.intro { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 5vw, 5rem); margin-top: clamp(1.8rem, 4vw, 3rem); max-width: 68rem; }
-.intro p { margin: 0; font-size: 1.12rem; }
-.intro-ar { font-size: 1.28rem !important; line-height: 2.05; }
-.intro-en { line-height: 1.75; color: var(--ink-2); }
+.hero .h-sub { display: block; margin-top: .1em; font-family: var(--display); font-weight: 700; font-size: clamp(2rem, 6.4vw, 5rem); line-height: 1.25; color: var(--accent); }
+.hero .h-en { display: block; margin-top: .7rem; font-family: var(--en); font-style: italic; font-weight: 400; font-size: clamp(1.5rem, 3.8vw, 2.8rem); line-height: 1.15; color: var(--ink-2); text-align: end; }
+.hero .h-en em { color: var(--accent); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.intro { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.8rem, 5vw, 5rem); margin-top: clamp(2rem, 4vw, 3.2rem); max-width: 76rem; }
+.intro p { margin: 0 0 1.1em; }
+.intro-ar { font-size: 1.22rem; line-height: 2.1; }
+.intro-ar .lead { font-family: var(--display); font-weight: 700; font-size: 1.5rem; line-height: 1.8; }
+.intro-en { font-size: 1.08rem; line-height: 1.75; color: var(--ink-2); }
+.intro-en .lead { font-style: italic; font-size: 1.28rem; line-height: 1.55; color: var(--ink); }
 @media (max-width: 800px) { .intro { grid-template-columns: 1fr; } }
 .strip { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; margin-top: clamp(2rem, 5vw, 3.5rem); }
 .strip a { display: block; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 3px; background: var(--paper-2); }

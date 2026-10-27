@@ -171,9 +171,8 @@ def layout(*, title, desc, rel, body, og="img/og.jpg", body_class="", extra_head
 <body class="{body_class}">
 <a class="skip" href="#main">تخطَّ إلى المحتوى · Skip to content</a>
 <header class="top">
-  <a class="brand" href="{rel}"><span class="brand-ar">وجوه العيش</span><span class="brand-en" lang="en" dir="ltr">Faces of Livelihood</span></a>
+  <a class="brand" href="{rel}"><span class="brand-ar">الوجوه</span><span class="brand-en" lang="en" dir="ltr">An Unread Language</span></a>
   <nav aria-label="Main">
-    <a href="{rel}">الوجوه<span lang="en" dir="ltr">Faces</span></a>
     <a href="{rel}about/">عن المشروع<span lang="en" dir="ltr">About</span></a>
   </nav>
 </header>
@@ -224,10 +223,10 @@ def page_index(faces):
     body = f"""
 <section class="hero wrap">
   <p class="kicker"><span>مكة والمدينة وجدة · ٢٠١٦–٢٠١٨</span><span lang="en" dir="ltr">Makkah, Madinah &amp; Jeddah · 2016–2018</span></p>
-  <h1><span class="h-ar">وجوه العيش</span><span class="h-en" lang="en" dir="ltr">Faces of Livelihood</span></h1>
+  <h1><span class="h-ar">الوجوه<span class="sr">:</span></span><span class="h-sub">لغةٌ مات قارئوها</span><span class="h-en" lang="en" dir="ltr">Faces: <em>An Unread Language</em></span></h1>
   <div class="intro">
-    <p class="intro-ar">«وجوه العيش» جزءٌ من القصّ الاجتماعي: صورٌ لناسٍ لقيَهم ماجد الأهدل في أسواق مكة وطرقاتها ومشاعرها، وأحيانًا في المدينة وجدّة، بين ٢٠١٦ و٢٠١٨، ونصوصٌ كتبها بصوتهم أو عنهم. ومكةُ مَصهَرةٌ لكثيرٍ من الأعراق والجنسيّات والثقافات. وفي العالم الحديث، وتحت عقودٍ من التمايز الاقتصادي بين الأقطار، يكون الاقتصادُ والبحثُ عن اللقمة الطيّبة محرّكَ الهجرة: هجرةٌ تأكل العمر دون حقوقٍ تُذكر، واغترابٌ لا يزيده انقضاءُ العمر إلا حدّة.</p>
-    <p class="intro-en" lang="en" dir="ltr">Faces of Livelihood is part of a social storytelling: portraits of people Majed Al-Ahdal met in the markets, streets, and pilgrim camps of Makkah, and sometimes in Madinah and Jeddah, between 2016 and 2018, with texts he wrote in their voices or about them. Makkah is a crucible of many races, nationalities, and cultures. In the modern world, after decades of economic inequality between nations, economics and the search for an honest morsel are what drive migration: a migration that consumes a lifetime with hardly any rights to speak of, and an estrangement that the passing of years only sharpens.</p>
+    <div class="intro-ar" lang="ar" dir="rtl"><p class="lead">«في وجوه الكادحين لغةٌ مات قارئوها في حادث اصطدامٍ شنيعٍ مع الرفاه». كتب ماجد الأهدل هذه العبارة عام ٢٠١٦ تحت أحد وجوه سلسلته «Proletarian»، ومنها يأخذ العمل اسمه.</p><p>يضمّ المشروع ستّةً وأربعين وجهًا التقطها بين ٢٠١٦ و٢٠١٨ في أسواق مكة وطرقاتها ومشاعرها، وأحيانًا في المدينة وجدّة. فيهم عمّالٌ وباعةٌ وخبّازون وجزّارون جاؤوا من باكستان وبنغلاديش والسودان وبورما وأفغانستان وغرب أفريقيا واليمن ومصر. وفيهم حجّاجٌ من بلادٍ شتّى، بينهم سعوديّون في مخيّمات الحجّ. ويرافق كلَّ وجهٍ نصّ: بعضه بصوت صاحبه، وبعضه عنه، وبعضه تأمّلٌ يبدأ من الوجه ويمضي إلى الأدب والتاريخ.</p><p>لا يقدّم العمل هذه الوجوه على أنّها غامضة أو غريبة، بل على أنّها نصوصٌ مكتوبةٌ بوضوح: بالتعب والغربة والانتظار والشيخوخة، وبالضحك أيضًا. الغائب هو القارئ. ومكة، المدينة التي يلتقي فيها هؤلاء جميعًا، تجعل السؤال أشدّ: كيف يمرّ المرء كلَّ يومٍ بكلّ هذه الوجوه ولا يقرأ منها شيئًا؟</p></div>
+    <div class="intro-en" lang="en" dir="ltr"><p class="lead">“In the faces of laborers there is a language whose readers died in a terrible collision with prosperity.” Majed Al-Ahdal wrote this line in 2016 beneath one of the portraits in his series <i>Proletarian</i>, and the work takes its name from it.</p><p>The project gathers forty-six faces photographed between 2016 and 2018 in the markets, streets, and pilgrimage sites of Makkah, and sometimes in Madinah and Jeddah. Among them are laborers, vendors, bakers, and butchers from Pakistan, Bangladesh, Sudan, Burma, Afghanistan, West Africa, Yemen, and Egypt, and pilgrims from many lands, Saudis among them in the Hajj camps. Each face is accompanied by a text: some in the sitter’s own voice, some about them, and some long reflections that begin with a face and travel on into literature and history.</p><p>The work does not present these faces as obscure or exotic. It presents them as texts written plainly, in fatigue, exile, waiting, old age, and laughter too. What is missing is the reader. And Makkah, the city where all of them meet, sharpens the question: how does one pass so many faces every day and read nothing in them?</p></div>
   </div>
   <div class="strip" aria-hidden="true">{strip}</div>
 </section>
@@ -246,8 +245,8 @@ def page_index(faces):
 </section>
 """
     return layout(
-        title="وجوه العيش — Faces of Livelihood",
-        desc="جزء من القصّ الاجتماعي: صور لوجوه ناسٍ من بلادٍ شتّى في مكة ونصوص عنهم بالعربية مترجمة إلى الإنجليزية · Part of a social storytelling: portraits of people from many lands in Makkah, with texts in Arabic and English.",
+        title="الوجوه: لغةٌ مات قارئوها — Faces: An Unread Language",
+        desc="«في وجوه الكادحين لغةٌ مات قارئوها في حادث اصطدامٍ شنيعٍ مع الرفاه». ستّةٌ وأربعون وجهًا ونصوصها بالعربية مترجمة إلى الإنجليزية · Forty-six faces from Makkah, with texts in Arabic and English.",
         rel=rel, body=body, body_class="home", scripts='<script src="js/main.js" defer></script>',
     )
 
@@ -321,7 +320,7 @@ def page_face(x, prev, nxt, faces):
 """
     first = re.sub(r"\s+", " ", x["text_ar"]).strip()[:150]
     return layout(
-        title=f"{x['ar_label']} — {x['en_label']} · وجوه العيش",
+        title=f"{x['ar_label']} — {x['en_label']} · الوجوه: لغةٌ مات قارئوها",
         desc=f"{first}… · {x['en_label']}",
         rel=rel, body=body, og=f"img/{x['id']}.jpg", body_class="facepage",
         scripts=f'<script src="{rel}js/main.js" defer></script>',
@@ -336,7 +335,6 @@ def page_about(faces):
   <h1><span class="h-ar">عن المشروع</span><span class="h-en" lang="en" dir="ltr">About the project</span></h1>
   <div class="about-cols">
     <section class="txt ar" lang="ar" dir="rtl">
-      <p><b>العَيش</b> في العربية: الحياة، وهو في كثيرٍ من اللهجات الخبز. و«وجوه العيش» وجوهُ من يسعَون وراء الأمرين معًا.</p>
       <p>هذا المشروع جزءٌ من القصّ الاجتماعي، أي من روايةِ المجتمع بوجوه أهله. ومكةُ مَصهَرةٌ لكثيرٍ من الأعراق والجنسيّات والثقافات: يفِد إليها الناس حجّاجًا ومعتمرين، ويقيم فيها كثيرون عمّالًا وباعةً وصنّاعًا، ويلتقي في أسواقها وطرقاتها بشتونٌ وبنغال وسودانيّون وطوارق وروهنجيا وتركستانيّون ومصريّون ويمنيّون وسعوديّون.</p>
       <p>وفي العالم الحديث، وتحت عقودٍ من التمايز الاقتصادي بين الأقطار، يكون الاقتصادُ والبحثُ عن اللقمة الطيّبة محرّكَ الهجرة. هجرةٌ تأكل العمر دون حقوقٍ تُذكر، واغترابٌ لا يزيده انقضاءُ العمر إلا حدّة. وفي كلّ وجهٍ من هذه الوجوه صفحةٌ من ذلك القصّ.</p>
       <p>ظهرت هذه الوجوه أولَ مرّةٍ في أغسطس ٢٠١٦ على إنستغرام ضمن سلسلةٍ باسم «Proletarian»، يرافق كلَّ وجهٍ نصّ، ثم اتّسعت لتشمل وجوهًا لقيَها الكاتب في الأسواق والمشاعر والجبال وحول الحرمين، إلى أغسطس ٢٠١٨.</p>
@@ -344,7 +342,6 @@ def page_about(faces):
       <p>الأصول المذكورة (بلدٌ أو قومٌ أو إقليم) مأخوذةٌ من النص نفسه أو من وسومه أو من توضيحات الكاتب، ولا تُنسب إلى أحدٍ ما لم يقله النصّ.</p>
     </section>
     <section class="txt en" lang="en" dir="ltr">
-      <p><i>‘Aysh</i> in Arabic means life, and in many dialects it is the word for bread. “Faces of Livelihood” is about the faces of people who pursue both at once.</p>
       <p>This project is part of social storytelling: the telling of a society through the faces of its people. Makkah is a crucible of many races, nationalities, and cultures. People come to it as pilgrims, for Hajj and umrah, and many settle there as laborers, vendors, and craftsmen. In its markets and streets Pashtuns, Bengalis, Sudanese, Tuareg, Rohingya, Turkestanis, Egyptians, Yemenis, and Saudis meet.</p>
       <p>In the modern world, after decades of economic inequality between nations, economics and the search for an honest morsel are what drive migration. It is a migration that consumes a lifetime with hardly any rights to speak of, and an estrangement that the passing of years only sharpens. Each of these faces is a page of that telling.</p>
       <p>These faces first appeared in August 2016 on Instagram, in a series called “Proletarian,” each accompanied by a text. The series then widened to include faces the author met in markets, pilgrim camps, on mountain paths, and around the two Holy Mosques, until August 2018.</p>
@@ -355,8 +352,8 @@ def page_about(faces):
 </article>
 """
     return layout(
-        title="عن المشروع — About · وجوه العيش",
-        desc="عن مشروع وجوه العيش: صور ونصوص عن ناسٍ من بلادٍ شتّى في الحجاز · About Faces of Livelihood.",
+        title="عن المشروع — About · الوجوه: لغةٌ مات قارئوها",
+        desc="عن مشروع «الوجوه: لغةٌ مات قارئوها»: صور ونصوص عن ناسٍ من بلادٍ شتّى في مكة · About “Faces: An Unread Language.”",
         rel=rel, body=body, body_class="aboutpage",
     )
 
