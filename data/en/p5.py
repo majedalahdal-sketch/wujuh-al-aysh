@@ -49,8 +49,8 @@ My heart, from separation, is like a feather!”""",
 },
 
 "36": {
-"en": """A moment of waiting for the reply from the other end of the world. A Bangladeshi worker in the Nakkasah market, waiting for Basim.""",
-"notes": ["Basim is a man’s name; the word also means “smiling.”"],
+"en": """A moment of waiting for the reply from the other end of the world. A Bangladeshi worker in the Nakkasah market, in a smiling wait.""",
+"notes": [],
 },
 
 "37": {

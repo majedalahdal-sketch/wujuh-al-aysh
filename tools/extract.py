@@ -53,10 +53,10 @@ SEL = [
     ("p", "BJ8JnTyBGix", N, "ابتسامة خالدة", "A Timeless Smile", N, N, "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", False),
     ("p", "BKDM2uXhRPQ", N, "نعود إلى ذلك الملف", "Returning to That File", N, N, "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", False),
     ("p", "BKGP2VYBDb_", N, "بائع الفاكهة الاستوائية", "The Tropical-Fruit Seller", N, N, "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", False),
-    ("p", "BKYtVyDBQ54", N, "صاحب أكثِّ شاربٍ في المخيّم", "The Man with the Thickest Mustache in Camp", N, N, "مِنى", "Mina", False),
+    ("p", "BKYtVyDBQ54", N, "صاحب أكثِّ شاربٍ في المخيّم", "The Man with the Thickest Mustache in Camp", "السعودية", "Saudi Arabia", "مِنى", "Mina", False),
     ("p", "BKYo-nlBWB9", N, "وجوه من الحجّ", "Faces of Hajj", N, N, N, N, False),
-    ("p", "BKbppU9Boof", N, "الحاجّ الأنيق", "The Elegant Pilgrim", N, N, N, N, False),
-    ("p", "BKfpTXqhPq4", N, "حين يرفع الوجهُ رايته البيضاء", "When the Face Raises Its White Flag", N, N, N, N, False),
+    ("p", "BKbppU9Boof", N, "الحاجّ الأنيق", "The Elegant Pilgrim", "السعودية", "Saudi Arabia", N, N, False),
+    ("p", "BKfpTXqhPq4", N, "حين يرفع الوجهُ رايته البيضاء", "When the Face Raises Its White Flag", "السعودية", "Saudi Arabia", N, N, False),
     ("p", "BKjj9fShz2D", N, "شيخ أفغانيّ", "An Afghan Elder", "أفغانستان", "Afghanistan", "المطاف — مكة المكرمة", "The Mataf — Makkah", False),
     ("p", "BLKfanZF81q", N, "الحاجّ إبراهيم، من الطوارق", "Hajj Ibrahim, a Tuareg", "الطوارق", "Tuareg", N, N, False),
     ("p", "BOPGWQKFZCs", N, "بائع الهدايا", "The Gift Seller", "باكستان", "Pakistan", "جبل النور (حراء) — مكة المكرمة", "Jabal al-Nour (Hira) — Makkah", False),
@@ -65,7 +65,7 @@ SEL = [
     ("p", "BPn14wJlvP1", N, "وجهٌ من البنجاب", "A Face from Punjab", "البنجاب", "Punjab", "في الطريق إلى رُهاط", "On the road to Rahat", False),
     ("p", "BQBq6wZleWZ", N, "أحمد خليل", "Ahmad Khalil", "البنجاب (باكستان)", "Punjab (Pakistan)", "جدّة البلد", "Jeddah, al-Balad", False),
     ("a", 4, N, "الأفق الذي لم يعد بعيدًا", "A Horizon No Longer Far", "الروهنجيا", "Rohingya", "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", True),
-    ("a", 3, N, "في انتظار باسم", "Waiting for Basim", "بنغلاديش", "Bangladesh", "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", False),
+    ("a", 3, N, "في انتظارٍ باسمٍ", "A Smiling Wait", "بنغلاديش", "Bangladesh", "سوق النكّاسة — مكة المكرمة", "Nakkasah Market — Makkah", False),
     ("a", 2, N, "وجوه الشيوخ", "The Elders' Faces", "البشتون", "Pashtun", "المدينة المنورة", "Madinah", False),
     ("a", 1, N, "صديق الشيخ البشتوني", "The Pashtun Elder's Friend", N, N, "المسجد النبوي — المدينة المنورة", "The Prophet's Mosque — Madinah", False),
     ("a", 0, N, "فيك الكثير الكثير منه", "So Much of Him Is in You", N, N, "المدينة المنورة", "Madinah", False),
@@ -186,6 +186,7 @@ def main():
             img = a["img"]
             code = f"archived-{key}"
         text = norm_waw(OVERRIDE.get(key if src == "p" else None) or clean(cap))
+        text = text.replace("في انتظار باسم.", "في انتظارٍ باسمٍ.")
         items.append(dict(src=src, code=code, key=key, ts=ts, date=date, pro=pro, ar_label=ar_l, en_label=en_l,
                           origin_ar=o_ar, origin_en=o_en, place_ar=pl_ar, place_en=pl_en, voice=voice,
                           text_ar=text, _img=str(img)))

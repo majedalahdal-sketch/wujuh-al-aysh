@@ -24,6 +24,7 @@ SITE = ROOT / "site"
 # ———— مجموعات الأصل (للفلترة) ————
 # origin_en → (مفتاح, عربي, إنجليزي)
 GROUPS = [
+    ("saudi", "السعودية", "Saudi Arabia", {"Saudi Arabia"}),
     ("pakistan", "باكستان", "Pakistan", {"Pakistan", "Punjab", "Punjab (Pakistan)"}),
     ("sudan", "السودان", "Sudan", {"Sudan", "Rashaida (Sudan)"}),
     ("bengal", "بنغلاديش والبنغال", "Bangladesh & Bengal", {"Bangladesh", "Bengal"}),
@@ -336,19 +337,19 @@ def page_about(faces):
   <div class="about-cols">
     <section class="txt ar" lang="ar" dir="rtl">
       <p><b>العَيش</b> في العربية: الحياة، وهو في كثيرٍ من اللهجات الخبز. و«وجوه العيش» وجوهُ من يسعَون وراء الأمرين معًا.</p>
-      <p>هذا المشروع جزءٌ من القصّ الاجتماعي، أي من روايةِ المجتمع بوجوه أهله. ومكةُ مَصهَرةٌ لكثيرٍ من الأعراق والجنسيّات والثقافات: يفِد إليها الناس حجّاجًا ومعتمرين، ويقيم فيها كثيرون عمّالًا وباعةً وصنّاعًا، ويلتقي في أسواقها وطرقاتها بشتونٌ وبنغال وسودانيّون وطوارق وروهنجيا وتركستانيّون ومصريّون ويمنيّون.</p>
+      <p>هذا المشروع جزءٌ من القصّ الاجتماعي، أي من روايةِ المجتمع بوجوه أهله. ومكةُ مَصهَرةٌ لكثيرٍ من الأعراق والجنسيّات والثقافات: يفِد إليها الناس حجّاجًا ومعتمرين، ويقيم فيها كثيرون عمّالًا وباعةً وصنّاعًا، ويلتقي في أسواقها وطرقاتها بشتونٌ وبنغال وسودانيّون وطوارق وروهنجيا وتركستانيّون ومصريّون ويمنيّون وسعوديّون.</p>
       <p>وفي العالم الحديث، وتحت عقودٍ من التمايز الاقتصادي بين الأقطار، يكون الاقتصادُ والبحثُ عن اللقمة الطيّبة محرّكَ الهجرة. هجرةٌ تأكل العمر دون حقوقٍ تُذكر، واغترابٌ لا يزيده انقضاءُ العمر إلا حدّة. وفي كلّ وجهٍ من هذه الوجوه صفحةٌ من ذلك القصّ.</p>
       <p>ظهرت هذه الوجوه أولَ مرّةٍ في أغسطس ٢٠١٦ على إنستغرام ضمن سلسلةٍ باسم «Proletarian»، يرافق كلَّ وجهٍ نصّ، ثم اتّسعت لتشمل وجوهًا لقيَها الكاتب في الأسواق والمشاعر والجبال وحول الحرمين، إلى أغسطس ٢٠١٨.</p>
       <p>يجمع هذا الموقع {ar_digits(n)} وجهًا بترتيبها الزمني. بعض النصوص بصوت صاحب الوجه، وبعضها عنه، وبعضها تأمّلٌ طويلٌ يبدأ من وجهٍ ويمضي إلى الأدب والتاريخ. الأصل العربي كما نُشر، مع تنظيمٍ طباعيّ فقط، وإلى جانبه ترجمةٌ إنجليزية ومعها ملاحظات المترجم حيث يلزم.</p>
-      <p>الأصول المذكورة (بلدٌ أو قومٌ أو إقليم) مأخوذةٌ من النص نفسه أو من وسومه، ولا تُنسب إلى أحدٍ ما لم يقله النصّ.</p>
+      <p>الأصول المذكورة (بلدٌ أو قومٌ أو إقليم) مأخوذةٌ من النص نفسه أو من وسومه أو من توضيحات الكاتب، ولا تُنسب إلى أحدٍ ما لم يقله النصّ.</p>
     </section>
     <section class="txt en" lang="en" dir="ltr">
       <p><i>‘Aysh</i> in Arabic means life, and in many dialects it is the word for bread. “Faces of Livelihood” is about the faces of people who pursue both at once.</p>
-      <p>This project is part of social storytelling: the telling of a society through the faces of its people. Makkah is a crucible of many races, nationalities, and cultures. People come to it as pilgrims, for Hajj and umrah, and many settle there as laborers, vendors, and craftsmen. In its markets and streets Pashtuns, Bengalis, Sudanese, Tuareg, Rohingya, Turkestanis, Egyptians, and Yemenis meet.</p>
+      <p>This project is part of social storytelling: the telling of a society through the faces of its people. Makkah is a crucible of many races, nationalities, and cultures. People come to it as pilgrims, for Hajj and umrah, and many settle there as laborers, vendors, and craftsmen. In its markets and streets Pashtuns, Bengalis, Sudanese, Tuareg, Rohingya, Turkestanis, Egyptians, Yemenis, and Saudis meet.</p>
       <p>In the modern world, after decades of economic inequality between nations, economics and the search for an honest morsel are what drive migration. It is a migration that consumes a lifetime with hardly any rights to speak of, and an estrangement that the passing of years only sharpens. Each of these faces is a page of that telling.</p>
       <p>These faces first appeared in August 2016 on Instagram, in a series called “Proletarian,” each accompanied by a text. The series then widened to include faces the author met in markets, pilgrim camps, on mountain paths, and around the two Holy Mosques, until August 2018.</p>
       <p>This site gathers {n} faces in chronological order. Some of the texts are in the voice of the person pictured, some are about them, and some are long reflections that begin with a face and travel on into literature and history. The Arabic is as published, with typographic tidying only; beside it stands an English translation, with translator’s notes where they are needed.</p>
-      <p>The origins named here (a country, a people, a region) are taken from the text itself or from its hashtags, and are not attributed to anyone beyond what the text says.</p>
+      <p>The origins named here (a country, a people, a region) are taken from the text itself, from its hashtags, or from the author’s own clarifications, and are not attributed to anyone beyond what the text says.</p>
     </section>
   </div>
 </article>
