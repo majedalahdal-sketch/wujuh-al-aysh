@@ -100,13 +100,13 @@ and his eyes… a history of ophthalmia.
 },
 
 "45": {
-"en": """O ancestors, there was not one honest soothsayer among them… We fled to fertility centuries ago, when fertility lay above the earth, in pastures where we grazed little sheep and camels. The soothsayer never told us about the fertility beneath the earth. We came back, and the land had not changed, the same barrenness. We came back with our sheep that we had fattened in the distant pastures, and it seems we were very late… You haven’t told me, do you want sacrificial sheep?
+"en": """“O ancestors, there was not one honest soothsayer among them… We fled to fertility centuries ago, when fertility lay above the earth, in pastures where we grazed little sheep and camels. The soothsayer never told us about the fertility beneath the earth. We came back, and the land had not changed, the same barrenness. We came back with our sheep that we had fattened in the distant pastures, and it seems we were very late… You haven’t told me, do you want sacrificial sheep?”
 — a Rashidi""",
 "notes": ["The “fertility beneath the earth” is presumably an allusion to oil."],
 },
 
 "46": {
-"en": """The Sudanese are no better than us in anything… All of us are expatriates, all of us work selling livestock. Take our picture and publish it wherever you like, even in “America!” Just don’t forget to send it to Wazir, because he is the only one with WhatsApp on his phone.
+"en": """“The Sudanese are no better than us in anything… All of us are expatriates, all of us work selling livestock. Take our picture and publish it wherever you like, even in ‘America!’ Just don’t forget to send it to Wazir, because he is the only one with WhatsApp on his phone.”
 — The middle one, in his way.""",
 "notes": ["Wazir is a name; it also means “minister.”", "The signature plays on Qur’anic phrases for “the best of them” (68:28 and 20:104)."],
 },
